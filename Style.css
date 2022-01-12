@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	width: 80%;
+	margin: auto;
+	height: 100vh;
+	background: black;
+}
+
+.header{
+	width: 97%;
+	margin: auto;
+
+	height: 15%;
+	background: aquamarine;
+}
+
+.menu{
+	width: 97%;
+	
+	margin: auto;
+	margin-top: 5px;
+	height: 10%;
+	background: lightpink;
+}
+
+.twobox{
+	width: 97%;
+	height: 60%;
+	margin: auto;
+	margin-top: 5px;
+}
+
+.left{
+	width: 64.5%;
+	height: 100%;
+	background: skyblue;
+	float: left;
+}
+
+.right{
+	width: 34.5%;
+	height: 100%;
+	background: antiquewhite;
+	float: right;
+}
+
+.footer{
+	width: 97%;
+	height: 12%;
+	margin: auto;
+	margin-top: 5px;
+	background: aqua;
+}
+
+.header,.menu,.left,.right,.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
